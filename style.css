@@ -8,13 +8,13 @@ body{
     height: 50px;
 }
 
-.container{
+.classContainer{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.classArticleUno{
+.classArticleCero{
     background-color: red;
     width: 300px;
     height: 100px;
@@ -49,7 +49,7 @@ body{
     text-align: center;
     font-size:2rem;
 }
-.classArticleSeis{
+.classArticleUno{
     background-color: orange;
     width: 300px;
     height: 100px;

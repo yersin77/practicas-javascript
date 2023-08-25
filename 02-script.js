@@ -1,3 +1,5 @@
-export function scroll(){
-    console.log('saludos');
+export function detectarDispositivo(){
+    const datos = navigator.userAgent.match(/windows/i)
+    console.log(datos)
 }
+

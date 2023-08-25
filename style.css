@@ -2,25 +2,64 @@ body{
     margin: 0;
 }
 
-.botonClass{
-    position: fixed;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: green;
-    bottom: 1vh;
-    left: 1vh;
-    cursor: pointer;
-    font-size: 2rem;
+
+.classDivUno{
+    background-color: aqua;
+    height: 50px;
 }
 
-.navClass{
-    background-color: aquamarine;
-    padding: 2rem;
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.classArticleUno{
+    background-color: red;
+    width: 300px;
+    height: 100px;
     text-align: center;
+    font-size:2rem;
+}
+.classArticleDos{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size:2rem;
+}
+.classArticleTres{
+    background-color: crimson;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size:2rem;
+}
+.classArticleCuatro{
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size:2rem;
+}
+.classArticleCinco{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size:2rem;
+}
+.classArticleSeis{
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size:2rem;
 }
 
 
-.dark{
-    background: black;
+
+.classDivDos{
+    background-color:chartreuse;
+    height: 50px;
 }
